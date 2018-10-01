@@ -1,0 +1,19 @@
+<h1>Books component:</h1>
+<div>
+  <table>
+    <thead>
+      <th>Id</th>
+      <th>Name</th>
+    </thead>
+    <tbody>
+      <tr *ngFor="let book of books">
+        <td>{{book.id}}</td>
+        <td>{{book.name}}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+<div>
+  <p>Books count: {{books.length}}</p>
+</div>
+
