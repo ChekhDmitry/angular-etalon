@@ -10,7 +10,7 @@ import { BooksService } from '../service/books.service';
 export class BooksComponent implements OnInit {
 
   // Local variables
-  private books: Book[] = [];
+  books: Book[] = [];
 
   // Dependency injection for BooksService into BooksComponent
   constructor(private booksService: BooksService) {}
